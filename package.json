@@ -1,6 +1,6 @@
 {
   "name": "dashboard_react_app",
-  "homepage": "https://krisbaranski.github.io",
+  "homepage": "https://krisbaranski.github.io/dashboard_react_app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
