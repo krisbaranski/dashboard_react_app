@@ -2,9 +2,8 @@
   font-family: "Source Sans Pro";
   font-weight: 400, 600, 700;
   src: url("./font/Source_Sans_Pro/SourceSansPro-Light.ttf");
-  src: local("./font/Source_Sans_Pro/SourceSansPro-Regular.ttf"),
-    url("./font/Source_Sans_Pro/SourceSansPro-Italic.ttf"),
-    url("./font/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  src: local("./font/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  /* url("./font/Source_Sans_Pro/SourceSansPro-Regular.ttf"); */
 }
 
 /* @import url("font/Source_Sans_Pro/css2?family=SourceSansPro:ital,wght@0,400;0,600;0,700&display=swap"); */
