@@ -32,6 +32,8 @@ const Team = () => {
       field: "access",
       headerName: "Access Level",
       flex: 1,
+      headerAlign: "center",
+      align: "center",
       renderCell: ({ row: { access } }) => {
         return (
           <Box
