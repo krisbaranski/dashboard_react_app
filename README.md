@@ -1,26 +1,53 @@
-# React Dashbosrd App
+# React Dashboard App
 
 ## Introduction
 
-This App is made with React using Material UI, Nivo Charts, Formik, Yup, FullCalendar and Data Grid.
-It consists of:
+App made with React using:
 
-- Dark/Light mode
-- four different Charts
-- three Data Table Pages
-- FAQ
-- Form Page
+- dark/light mode
+- theme color tokens
+- dashboard with different Data
+- three data table Pages (Team, Contacts, Invoices)
+- Profile Form Page
 - Calendar integration
-
-Originally made by EdRoh, followed in explanatory tutorial.
+- FAQ
+- four different Charts
 
 ## Links
 
-- create-react-app: https://create-react-app.dev/
-- material ui: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUl6dGcxNmF1MWpqbGFhaE5BMVpXODc0cTc1d3xBQ3Jtc0ttM1d6cjc3ZmptLUFMVGQwYWtTOWpQbEVvYTFLUnBDYnc1RkwtWGdaWGtSMWZGOHI2eUNpa0VhV04tWjRlZUNaN0VBOHY4UTRScU5jYVNZNTY4MXctaEVrdEZic0pNQzE4bXAyQnZTbUdRWXZ5RnM0aw&q=https%3A%2F%2Fmui.com%2Fmaterial-ui%2Fgetting-started%2Finstallation%2F&v=wYpCWwD1oz0
-- nivo charts: https://nivo.rocks/components
-- full calendar: https://fullcalendar.io/docs
-- formik: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXpnakNUOFZPdVhYNFdwQTRSUXpkbUpTRTgwUXxBQ3Jtc0trOTV1X2FjTWo1UzJaR3huRzlaS3hHQzZ6YnFiUkNOX09HSlEtWllyNWJZX1RGTTdIREk0M0prdGZWa2c3Y0pyZ29mUEV6MUhPVmt5Nk83REpQYk9uVUczb2xTSmpvLV9mWWdnbDRKVDZCTXlyOVFNUQ&q=https%3A%2F%2Fformik.org%2Fdocs%2Foverview%23installation&v=wYpCWwD1oz0
-- yup validation: https://github.com/jquense/yup
-- react pro sidebar: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGN4TG9tRlNRSnlTUFBIYWV1X00yWlZudTNxd3xBQ3Jtc0tuQTBwSzJSYVRNSUpDS1hfa1hYTjAwTFJSUnd3X2xEU2w2MUQwT05FMnFMTExTM0JqVmNIejIzTzZkUGFELTFwNnNfcFgyUlBIUjRXZjVSb2tlM3RmdXp6ZkJXT1prcU1MT3IzT3g1X0tHOENjUXpMRQ&q=https%3A%2F%2Fgithub.com%2Fazouaoui-med%2Freact-pro-sidebar&v=wYpCWwD1oz0
-- google fonts: https://fonts.google.com/
+Here are source links and libraries used in the project:
+
+- [tutorial](https://www.youtube.com/watch?v=wYpCWwD1oz0)
+- [sourcecode](https://github.com/ed-roh/react-admin-dashboard)
+- [mockData](https://github.com/ed-roh/react-admin-dashboard/tree/master/src/data)
+
+##
+
+- create-react-app: [link](https://create-react-app.dev/)
+- material ui: [link](https://mui.com/material-ui/getting-started/installation/)
+- nivo charts: [link](https://nivo.rocks/components)
+- full calendar: [link](https://fullcalendar.io/docs)
+- formik: [link](https://formik.org/docs/overview#installation)
+- yup validation: [link](https://github.com/jquense/yup)
+- react pro sidebar: [link](https://github.com/azouaoui-med/react-pro-sidebar)
+- google fonts: [link](https://fonts.google.com/)
+
+## Description
+
+- at first install react app,
+- then delete unnecessary files (setupTests.js, reportWebVitals.js, logo.svg, App.test.js
+- copy data mock files into data folder
+- arrange features, components, scenes in particular way to keep balance between nesting and flat structure
+- adjust theme color design tokens
+- expand colors with Tailwind Shades extention (VSCode), using shortcut (cmd+k+g)
+- build dark and light setup and color palette with ternary operation
+- setup typography
+- build Topbar
+- place data, tables and charts imports to App.js as Routes
+- comment it out until component is built and function
+- create Sidebar with React Pro Sidebar
+- import icons from mui/icons-material
+- build Tables with MUI Data Grid
+- place toolbar container (GridToolbar) for filtering informations from the table
+- build profile form page with Formik and Yup validation and required fields
+- build Calendar (FullCalendar)
