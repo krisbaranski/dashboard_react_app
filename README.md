@@ -50,4 +50,9 @@ Here are source links and libraries used in the project:
 - build Tables with MUI Data Grid
 - place toolbar container (GridToolbar) for filtering informations from the table
 - build profile form page with Formik and Yup validation and required fields
-- build Calendar (FullCalendar)
+- build Calendar (FullCalendar) with add events to Calendar
+- create FAQ element with MUI Accordion
+- build Nivo Charts (Bar, Pie, Line, Geography)
+- Geography Chart needs mockGeoData to dipslay a world map
+- before build dashboard, create ProgressCircle and StatBox to visual Data
+- in the end we build Dashboard with Grid, put elements inside with individual design
