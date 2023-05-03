@@ -22,11 +22,7 @@ const FAQ = () => {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione,
-            totam sapiente! Minus, amet accusantium at inventore cumque commodi
-            vitae maxime!
-          </Typography>
+          <Typography>Irrelevant answer</Typography>
         </AccordionDetails>
       </Accordion>
 
@@ -48,30 +44,11 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant='h5'>
-            Another important question
+            Ultimate question to life, the universe and everything
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione,
-            totam sapiente! Minus, amet accusantium at inventore cumque commodi
-            vitae maxime!
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant='h5'>
-            Final important question
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione,
-            totam sapiente! Minus, amet accusantium at inventore cumque commodi
-            vitae maxime!
-          </Typography>
+          <Typography>42</Typography>
         </AccordionDetails>
       </Accordion>
     </Box>
